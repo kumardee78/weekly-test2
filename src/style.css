@@ -1,0 +1,12 @@
+.hidden{
+    display: hidden
+}
+.visible{
+    display: block
+}
+.overflow::-webkit-scrollbar {
+    display: none;  
+}
+::-webkit-scrollbar {
+    display: visible;  
+}
