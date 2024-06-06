@@ -3,7 +3,7 @@ import SideBar from './components/SideBar.jsx'
 
 export default function () {
   return (
-    <div className='lg:flex justify-between py-6 px-8'>
+    <div className='flex justify-between py-2 px-8 h-full bg-black'>
       <SideBar/>
       <Main/>
     </div>

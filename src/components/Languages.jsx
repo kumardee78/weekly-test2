@@ -13,122 +13,94 @@ export default function Languages() {
   const [russian, setRussian] = useState(20);
   return (
     <div className="py-4">
-      <h1 className="text-center font-semibold py-4 text-2xl mb-4">Languages</h1>
+      <h1 className="text-center font-semibold py-4 text-2xl mb-4">
+        Languages
+      </h1>
       <div className="flex justify-between px-4 rounded-lg shadow-md shadow-gray-600 rounded-xl bg-[#222C32]">
         <div className="px-6 pt-4 pb-8">
           <h1 className=" text-2xl mb-4 text-center">Coding</h1>
-          <div>
+          <div className="pb-4">
             <p>
               JavaScript <span className="text-gray-300">90%</span>
             </p>
-            <input
-              type="range"
-              name=""
-              id=""
-              value={rangeValueOne}
-              className="w-[20rem]"
-            />
+            <div className="skill-bar">
+              <div className="skill-per skill-1" per="90%"></div>
+            </div>
           </div>
-          <div>
+          <div className="pb-4">
             <p>
               TypeScript <span className="text-gray-300">75%</span>
             </p>
-            <input
-              type="range"
-              name=""
-              id=""
-              value={rangeValueTwo}
-              className="w-[20rem]"
-            />
+            <div className="skill-bar">
+              <div className="skill-per skill-2" per="75%"></div>
+            </div>
           </div>
-          <div>
+          <div className="pb-4">
             <p>
               CSS <span className="text-gray-300">100%</span>
             </p>
-            <input
-              type="range"
-              name=""
-              id=""
-              value={rangeValueThree}
-              className="w-[20rem]"
-            />
+            <div className="skill-bar">
+              <div className="skill-per skill-3" per="100%"></div>
+            </div>
           </div>
-          <div>
+          <div className="pb-4">
             <p>
               PHP <span className="text-gray-300">50%</span>
             </p>
-            <input
-              type="range"
-              name=""
-              id=""
-              value={rangeValueFourth}
-              className="w-[20rem]"
-            />
+            <div className="skill-bar">
+              <div className="skill-per skill-4" per="55%"></div>
+            </div>
           </div>
-          <div>
+          <div className="pb-4">
             <p>
               Python <span className="text-gray-300">25%</span>
             </p>
-            <input
-              type="range"
-              name=""
-              id=""
-              value={rangeValueFifth}
-              className="w-[20rem]"
-            />
+            <div className="skill-bar">
+              <div className="skill-per skill-5" per="25%"></div>
+            </div>
           </div>
         </div>
         <div className="px-6 pt-4 pb-8">
           <h1 className="text-2xl mb-4 text-center"> Human Languages</h1>
-          <div>
-            <p>English <span className='text-gray-400'>Fluent</span></p>
-            <input
-              type="range"
-              name=""
-              id=""
-              value={english}
-              className="w-[20rem]"
-            />
+          <div className="pb-4">
+            <p>
+              English <span className="text-gray-300">Fluent</span>
+            </p>
+            <div className="skill-bar">
+              <div className="skill-per language-1" per="100%"></div>
+            </div>
           </div>
-          <div>
-            <p>German <span className='text-gray-400'>Fluent</span></p>
-            <input
-              type="range"
-              name=""
-              id=""
-              value={german}
-              className="w-[20rem]"
-            />
+          <div className="pb-4">
+            <p>
+              German <span className="text-gray-300">Fluent</span>
+            </p>
+            <div className="skill-bar">
+              <div className="skill-per language-2" per="100%"></div>
+            </div>
           </div>
-          <div>
-            <p>Bulgarian <span className='text-gray-400'>Fluent</span></p>
-            <input
-              type="range"
-              name=""
-              id=""
-              value={bulgarain}
-              className="w-[20rem]"
-            />
+          <div className="pb-4">
+            <p>
+              Bulgarian <span className="text-gray-300">Fluent</span>
+            </p>
+            <div className="skill-bar">
+              <div className="skill-per language-3" per="100%"></div>
+            </div>
           </div>
-          <div>
-            <p>Turkish <span className='text-gray-400'>Bilingual</span></p>
-            <input
-              type="range"
-              name=""
-              id=""
-              value={turkidh}
-              className="w-[20rem]"
-            />
+          <div className="pb-4">
+            <p>
+              Turkish <span className="text-gray-300">Bilingual</span>
+            </p>
+            <div className="skill-bar">
+              <div className="skill-per language-4" per="75%"></div>
+            </div>
           </div>
-          <div>
-            <p>Russian <span className='text-gray-400'>Basic</span></p>
-            <input
-              type="range"
-              name=""
-              id=""
-              value={russian}
-              className="w-[20rem]"
-            />
+          <div className="pb-4">
+            <p>
+              Russian <span className="text-gray-300">Basic</span>
+            </p>
+            <div className="skill-bar">
+              <div className="skill-per language-5" per="20%"></div>
+            </div>
           </div>
         </div>
       </div>

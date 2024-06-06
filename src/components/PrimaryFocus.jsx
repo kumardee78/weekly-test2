@@ -5,8 +5,8 @@ export default function PrimaryFocus() {
     <div className=" pb-6">
         <h2 className="text-center font-semibold text-2xl py-4 mb-4">Primary Focus</h2>
         <div className="flex flex-wrap items-center justify-center gap-4">
-          <div className="w-[40%] h-[10rem] shadow-md shadow-gray-600 rounded-xl flex gap-2 bg-[#222C32] py-4 px-4 mb-2">
-            <div></div>
+          <div className="w-[48%] h-[10rem] shadow-md shadow-gray-600 rounded-xl flex gap-2 bg-[#222C32] py-4 px-4 mb-2">
+            <div className="text-5xl text-yellow-600 mr-4"><i class="fa-solid fa-globe"></i></div>
             <div>
               <h3 className="font-semibold text-lg">Web Design & Development</h3>
               <p className="text-gray-400 mt-2">
@@ -15,8 +15,8 @@ export default function PrimaryFocus() {
               </p>
             </div>
           </div>
-          <div className="w-[40%] h-[10rem] shadow-md shadow-gray-600 rounded-xl flex gap-2 bg-[#222C32] py-4 px-4 mb-2">
-            <div></div>
+          <div className="w-[48%] h-[10rem] shadow-md shadow-gray-600 rounded-xl flex gap-2 bg-[#222C32] py-4 px-4 mb-2">
+            <div className="text-5xl text-yellow-600 mr-4"><i class="fa-solid fa-clipboard-list"></i></div>
             <div>
               <h3 className="font-semibold text-lg">Full-Stack Solutions</h3>
               <p className="text-gray-400 mt-2">
@@ -25,8 +25,8 @@ export default function PrimaryFocus() {
               </p>
             </div>
           </div>
-          <div className="w-[40%] h-[10rem] shadow-md shadow-gray-600 rounded-xl flex gap-2 bg-[#222C32] py-4 px-4 mb-2">
-            <div></div>
+          <div className="w-[48%] h-[10rem] shadow-md shadow-gray-600 rounded-xl flex gap-2 bg-[#222C32] py-4 px-4 mb-2">
+            <div className="text-5xl text-yellow-600 mr-4"><i class="fa-solid fa-mobile-screen-button"></i></div>
             <div className="">
               <h3 className="font-semibold text-lg">Mobile Apps & Games</h3>
               <p className="text-gray-400 mt-2">
@@ -35,8 +35,8 @@ export default function PrimaryFocus() {
               </p>
             </div>
           </div>
-          <div className="w-[40%] h-[10rem] shadow-md shadow-gray-600 rounded-xl flex gap-2 bg-[#222C32] py-4 px-4 mb-2">
-            <div></div>
+          <div className="w-[48%] h-[10rem] shadow-md shadow-gray-600 rounded-xl flex gap-2 bg-[#222C32] py-4 px-4 mb-2">
+            <div className="text-5xl text-yellow-600 mr-4"><i class="fa-solid fa-arrow-trend-up"></i></div>
             <div className="">
               <h3 className="font-semibold text-lg">Marketing & SEO</h3>
               <p className="text-gray-400 mt-2">

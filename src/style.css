@@ -7,6 +7,51 @@
 .overflow::-webkit-scrollbar {
     display: none;  
 }
-::-webkit-scrollbar {
-    display: visible;  
+.devOverflow::-webkit-scrollbar-thumb{
+    background-color: blueviolet;
+    border-radius: 5px;
+    width: 1rem;
+}
+.devOverflow::-webkit-scrollbar{
+    height: 0.5rem;
+    background-color: white;
+    border-radius: 5px;
+}
+.skill-per{
+    background-color: blueviolet;
+    height: 0.55rem;
+    border-radius: 4rem;
+}
+.skill-bar{
+    width: 22rem;
+    height: 0.55rem;
+    border-radius: 4rem;
+    background-color: white;
+}
+.skill-1{
+    width: 90%;
+}
+.skill-2{
+    width: 75%;
+}
+.skill-3{
+    width: 100%;
+}
+.skill-4{
+    width: 50%;
+}
+.skill-5{
+    width: 25%;
+}
+.language-1, .language-2, .language-3{
+    width: 100%;
+}
+.language-4{
+    width: 75%;
+}
+.language-5{
+    width: 20%;
+}
+.image-shadow:hover{
+    filter: drop-shadow(0.55rem 0rem 1.5rem rgb(230, 230, 89) );
 }

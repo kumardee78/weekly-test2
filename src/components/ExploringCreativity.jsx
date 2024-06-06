@@ -3,8 +3,8 @@ export default function ExploringCreativity() {
     <div className="">
       <h1 className="text-center font-semibold py-4 text-2xl mb-4">Exploring Creativity</h1>
       <div className="flex  flex-wrap gap-4 items-center justify-center">
-        <div className="w-[40%] h-[10rem] shadow-md shadow-gray-600 rounded-xl flex gap-2 bg-[#222C32] py-4 px-4 mb-2">
-          <div></div>
+        <div className="w-[48%] h-[10rem] shadow-md shadow-gray-600 rounded-xl flex gap-2 bg-[#222C32] py-4 px-4 mb-2">
+          <div className="text-5xl text-yellow-600 mr-4"><i class="fa-solid fa-camera"></i></div>
           <div>
             <h3 className="font-semibold text-lg">Visual Storytelling</h3>
             <p className="text-gray-400 mt-2">
@@ -13,8 +13,8 @@ export default function ExploringCreativity() {
             </p>
           </div>
         </div>
-        <div className="w-[40%] h-[10rem] shadow-md shadow-gray-600 rounded-xl flex gap-2 bg-[#222C32] py-4 px-4 mb-2">
-          <div></div>
+        <div className="w-[48%] h-[10rem] shadow-md shadow-gray-600 rounded-xl flex gap-2 bg-[#222C32] py-4 px-4 mb-2">
+          <div className="text-5xl text-yellow-600 mr-4"><i class="fa-solid fa-cube"></i></div>
           <div>
             <h3 className="font-semibold text-lg">Digital Content Creation</h3>
             <p className="text-gray-400 mt-2">

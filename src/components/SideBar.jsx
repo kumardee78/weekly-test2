@@ -15,7 +15,7 @@ export default function SideBar() {
     <>
       <div className="p-6 w-[22%] shadow-gray-900 shadow-lg rounded-2xl my-4 bg-[#1f1f1f]">
         <div className="text-center mb-6">
-          <p className='w-[85%] mx-auto'><img src="download.jpg" alt="" className="w-[100%]  rounded-full"/></p>
+          <p className='w-[70%] mx-auto'><img src="download.jpg" alt="" className="w-[100%]  rounded-full"/></p>
           <h3 className="text-xl text-white font-bold my-4">Oktay Shakirov</h3>
           <button type="button" className="rounded-2xl shadow-white shadow-md px-8 py-1 my-2 bg-[#215666] text-white">Hello, World!</button>
         </div>
@@ -42,11 +42,11 @@ export default function SideBar() {
               <p className='text-white'>INTJ-T</p>
             </div>
           </div>
-          <div className='pt-4 flex gap-6 w-[90%] mx-auto'>
-          <InstagramIcon/>
-          <GitHubIcon/>
-          <LinkedInIcon/>
-          <TwitterIcon/>
+          <div className='pt-8 pb-4 flex gap-8 w-[90%] mx-auto '>
+          <InstagramIcon className='text-gray-400 hover:text-gray-600'/>
+          <GitHubIcon className='text-gray-400 hover:text-gray-600'/>
+          <LinkedInIcon className='text-gray-400 hover:text-gray-600'/>
+          <TwitterIcon className='text-gray-400 hover:text-gray-600'/>
           </div>
         </div>
       </div>
